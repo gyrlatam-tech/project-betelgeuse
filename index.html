@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skoolia Workspace</title>
+    <meta property="og:title" content="Skoolia Workspace" />
+    <meta name="description" content="Sistema de criação e administração de contas Google Workspace com a identidade visual da skoolia." />
+    <meta property="og:description" content="Sistema de criação e administração de contas Google Workspace com a identidade visual da skoolia." />
+    <!-- Explicitly disable favicon so no icon is displayed or requested by browsers -->
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #f4f5f0;
+        color: #0e0f0c;
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+      h1, h2, h3, h4, .wise-font, .display-font {
+        font-family: 'Outfit', sans-serif;
+        letter-spacing: -0.025em;
+        text-wrap: balance;
+      }
+      /* Custom Wise scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #e8ebe6;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd3c5;
+        border-radius: 9999px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #9fe870;
+      }
+    </style>
+  </head>
+  <body class="bg-[#f4f5f0] text-[#0e0f0c] antialiased min-h-screen selection:bg-[#9fe870] selection:text-[#163300]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

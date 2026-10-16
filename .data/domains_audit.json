@@ -1,0 +1,198 @@
+{
+  "webteacher.net": {
+    "domainName": "webteacher.net",
+    "state": "PENDING_APPROVAL",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "NOT_STARTED",
+        "timestamp": "2026-08-28T18:03:18.009Z",
+        "details": "Initial record created"
+      },
+      {
+        "from": "NOT_STARTED",
+        "to": "DOMAIN_INSERTED",
+        "timestamp": "2026-08-28T18:03:18.009Z",
+        "details": {
+          "domain": "webteacher.net"
+        }
+      },
+      {
+        "from": "DOMAIN_INSERTED",
+        "to": "TOKEN_ISSUED",
+        "timestamp": "2026-08-28T18:03:19.567Z",
+        "details": {
+          "token": "google-site-verification=W-MmnFTxVX_4VIxwLSSQLNDwbrPSK9XcdzrSdFq6yWs"
+        }
+      },
+      {
+        "from": "TOKEN_ISSUED",
+        "to": "PENDING_DNS",
+        "timestamp": "2026-08-28T18:03:19.567Z",
+        "details": {
+          "token": "google-site-verification=W-MmnFTxVX_4VIxwLSSQLNDwbrPSK9XcdzrSdFq6yWs"
+        }
+      },
+      {
+        "from": "PENDING_DNS",
+        "to": "VERIFIED_PENDING_PROPAGATION",
+        "timestamp": "2026-08-28T18:03:41.841Z",
+        "details": {
+          "canonicalId": "dns://webteacher.net",
+          "owners": [
+            "digiwebby-accountservice@ai-studio-applet-webapp-833d9.iam.gserviceaccount.com",
+            "admin@alumnoweb.com"
+          ],
+          "adminOwnerPresent": true
+        }
+      },
+      {
+        "from": "VERIFIED_PENDING_PROPAGATION",
+        "to": "REMOVED",
+        "timestamp": "2026-08-28T18:15:53.578Z",
+        "details": {
+          "timestamp": "2026-08-28T18:15:53.578Z"
+        }
+      },
+      {
+        "from": "REMOVED",
+        "to": "PENDING_APPROVAL",
+        "timestamp": "2026-08-28T18:35:37.936Z",
+        "details": {
+          "submittedAt": "2026-08-28T18:35:37.935Z",
+          "stage": "AWAITING_TXT_APPROVAL"
+        }
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-08-28T18:03:18.009Z",
+    "updatedAt": "2026-08-28T18:35:37.936Z",
+    "directory": {
+      "lastCheckedAt": "2026-08-28T18:05:36.716Z",
+      "verified": false,
+      "isPrimary": false,
+      "creationTime": "1787940198810"
+    }
+  },
+  "alumnoweb.com": {
+    "domainName": "alumnoweb.com",
+    "state": "PENDING_APPROVAL",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "NOT_STARTED",
+        "timestamp": "2026-08-28T18:16:35.700Z",
+        "details": "Initial record created"
+      },
+      {
+        "from": "NOT_STARTED",
+        "to": "PENDING_APPROVAL",
+        "timestamp": "2026-08-28T18:16:36.336Z",
+        "details": {
+          "submittedAt": "2026-08-28T18:16:35.700Z",
+          "stage": "AWAITING_SUPER_ADMIN_TXT_APPROVAL"
+        }
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-08-28T18:16:35.700Z",
+    "updatedAt": "2026-08-28T18:16:36.336Z"
+  },
+  "recantoabelhinha.com.br": {
+    "domainName": "recantoabelhinha.com.br",
+    "state": "VERIFIED",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "NOT_STARTED",
+        "timestamp": "2026-10-05T18:01:12.145Z",
+        "details": "Initial record created"
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-10-05T18:01:12.145Z",
+    "updatedAt": "2026-10-05T18:01:12.145Z",
+    "token": "google-site-verification=test-token-12345",
+    "txtHost": "@",
+    "mxServer": "SMTP.GOOGLE.COM",
+    "mxHost": "@",
+    "mxPriority": "1",
+    "spfHost": "@",
+    "spfValue": "v=spf1 include:_spf.google.com ~all",
+    "dnsInstructions": "Configurar no Cloudflare e aguardar 15 minutos.",
+    "tenantId": "E15S1Mit0ZRJl8iaBZe5AKdZkXE3",
+    "institutionName": "ESCOLA INFANTIL ABELHINHA"
+  },
+  "crenacimiento.mx": {
+    "domainName": "crenacimiento.mx",
+    "state": "VERIFIED",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "VERIFIED",
+        "timestamp": "2026-10-13T02:49:33.223Z",
+        "details": "Associated by SuperAdmin / Firestore sync"
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-10-13T02:49:33.223Z",
+    "updatedAt": "2026-10-13T02:49:33.223Z",
+    "tenantId": "1789840423742",
+    "institutionName": "Colegio Renacimiento de La Bastida",
+    "dnsInstructions": "Configurado e verificado pelo SuperAdmin"
+  },
+  "donquijotebrasil.com.br": {
+    "domainName": "donquijotebrasil.com.br",
+    "state": "VERIFIED",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "VERIFIED",
+        "timestamp": "2026-10-13T02:49:33.223Z",
+        "details": "Associated by SuperAdmin / Firestore sync"
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-10-13T02:49:33.223Z",
+    "updatedAt": "2026-10-13T02:49:33.223Z",
+    "tenantId": "1790454375234",
+    "institutionName": "DON QUIJOTE AULAS DE ESPANHOL",
+    "dnsInstructions": "Configurado e verificado pelo SuperAdmin"
+  },
+  "colegiomonserrat.edu.pe": {
+    "domainName": "colegiomonserrat.edu.pe",
+    "state": "VERIFIED",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "VERIFIED",
+        "timestamp": "2026-10-13T02:49:33.223Z",
+        "details": "Associated by SuperAdmin / Firestore sync"
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-10-13T02:49:33.223Z",
+    "updatedAt": "2026-10-13T02:49:33.223Z",
+    "tenantId": "1790454536369",
+    "institutionName": "Colegio Monserrat",
+    "dnsInstructions": "Configurado e verificado pelo SuperAdmin"
+  },
+  "efi-cusco.edu.pe": {
+    "domainName": "efi-cusco.edu.pe",
+    "state": "VERIFIED",
+    "stateTransitions": [
+      {
+        "from": "NOT_STARTED",
+        "to": "VERIFIED",
+        "timestamp": "2026-10-13T02:49:33.223Z",
+        "details": "Associated by SuperAdmin / Firestore sync"
+      }
+    ],
+    "attempts": 0,
+    "createdAt": "2026-10-13T02:49:33.223Z",
+    "updatedAt": "2026-10-13T02:49:33.223Z",
+    "tenantId": "hzaJnXLiTfWTpYgt3gV6BBH89QE2",
+    "institutionName": "Escuela Francesa Internacional Pierre et Marie Curie de Cusco",
+    "dnsInstructions": "Configurado e verificado pelo SuperAdmin"
+  }
+}

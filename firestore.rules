@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /institutions/{institutionId} {
+      allow get, list: if true;
+      allow write: if request.auth != null && (
+        request.auth.uid == institutionId || 
+        resource == null || 
+        resource.data.ownerUid == request.auth.uid || 
+        request.resource.data.ownerUid == request.auth.uid ||
+        request.auth.token.email in ['gyrlatam@gmail.com']
+      );
+    }
+    match /{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "tenant-1789840423742",
+    "name": "Colegio Renacimiento de La Bastida",
+    "slug": "colegio-renacimiento-de-la-bastida",
+    "primaryContactEmail": "alee.arai@gmail.com",
+    "financialContactEmail": "colegio_renacimientotexmelucan@yahoo.com.mx",
+    "allowedDomains": [
+      "crenacimiento.mx"
+    ],
+    "status": "ACTIVE",
+    "ownerUid": "1789840423742"
+  },
+  {
+    "id": "tenant-1790454375234",
+    "name": "DON QUIJOTE AULAS DE ESPANHOL",
+    "slug": "don-quijote-aulas-de-espanhol",
+    "primaryContactEmail": "donquijotesc@gmail.com",
+    "financialContactEmail": "donquijotesc@gmail.com",
+    "allowedDomains": [
+      "donquijotebrasil.com.br"
+    ],
+    "status": "ACTIVE",
+    "ownerUid": "1790454375234"
+  },
+  {
+    "id": "tenant-1790454536369",
+    "name": "Colegio Monserrat",
+    "slug": "colegio-monserrat",
+    "primaryContactEmail": "sistemas@colegiomonserrat.edu.pe",
+    "financialContactEmail": "enderiutm@gmail.com",
+    "allowedDomains": [
+      "colegiomonserrat.edu.pe"
+    ],
+    "status": "ACTIVE",
+    "ownerUid": "1790454536369"
+  },
+  {
+    "id": "tenant-D6Emfoygztd44cYsJAB46JeOwNo2",
+    "name": "Breakthrough Academy Chartered  Public School",
+    "slug": "breakthrough-academy-chartered--public-school",
+    "primaryContactEmail": "k.morton@bacsnh.org",
+    "financialContactEmail": "team@blundellaccounting.com",
+    "allowedDomains": [],
+    "status": "ACTIVE",
+    "ownerUid": "D6Emfoygztd44cYsJAB46JeOwNo2"
+  },
+  {
+    "id": "tenant-E15S1Mit0ZRJl8iaBZe5AKdZkXE3",
+    "name": "ESCOLA INFANTIL ABELHINHA",
+    "slug": "escola-infantil-abelhinha",
+    "primaryContactEmail": "escolainfantilabelhinha@gmail.com",
+    "financialContactEmail": "escolainfantilabelhinha@gmail.com",
+    "allowedDomains": [
+      "recantoabelhinha.com.br"
+    ],
+    "status": "TRIAL",
+    "ownerUid": "E15S1Mit0ZRJl8iaBZe5AKdZkXE3"
+  },
+  {
+    "id": "tenant-MTIsLQkMv8Vpai1hZ7o7CoSQ5xj2",
+    "name": "ALIEN NETWORKS",
+    "slug": "alien-networks",
+    "primaryContactEmail": "gyrlatam@gmail.com",
+    "financialContactEmail": "help@digiwebby.com",
+    "allowedDomains": [
+      "recantoabelhinha.com.br"
+    ],
+    "status": "ACTIVE",
+    "ownerUid": "MTIsLQkMv8Vpai1hZ7o7CoSQ5xj2"
+  },
+  {
+    "id": "tenant-R9viR7sFG3OXamLm3WRiAlkgmGH3",
+    "name": "AERONOVA ACADEMY SAS",
+    "slug": "aeronova-academy-sas",
+    "primaryContactEmail": "tecnologia@aeronova.co",
+    "financialContactEmail": "contabilidad@aeronova.co",
+    "allowedDomains": [],
+    "status": "TRIAL",
+    "ownerUid": "R9viR7sFG3OXamLm3WRiAlkgmGH3"
+  },
+  {
+    "id": "tenant-Rr1M6irs4HXy61HVIusQPuF7F5j1",
+    "name": "tv2",
+    "slug": "tv2",
+    "primaryContactEmail": "brunno.lqz@gmail.com",
+    "financialContactEmail": "brunno.lqz@gmail.com",
+    "allowedDomains": [],
+    "status": "TRIAL",
+    "ownerUid": "Rr1M6irs4HXy61HVIusQPuF7F5j1"
+  },
+  {
+    "id": "tenant-hzaJnXLiTfWTpYgt3gV6BBH89QE2",
+    "name": "Escuela Francesa Internacional Pierre et Marie Curie de Cusco",
+    "slug": "escuela-francesa-internacional-pierre-et-marie-curie-de-cusco",
+    "primaryContactEmail": "alexis@brunaux.fr",
+    "financialContactEmail": "alexis@brunaux.fr",
+    "allowedDomains": [
+      "efi-cusco.edu.pe"
+    ],
+    "status": "TRIAL",
+    "ownerUid": "hzaJnXLiTfWTpYgt3gV6BBH89QE2"
+  },
+  {
+    "id": "tenant-lu5bZdy58Dg2WSbTXDIrSm2joX43",
+    "name": "Faculdades Unidas de Imbituba",
+    "slug": "faculdades-unidas-de-imbituba",
+    "primaryContactEmail": "coradinni@gmail.com",
+    "financialContactEmail": "coradinni@gmail.com",
+    "allowedDomains": [],
+    "status": "TRIAL",
+    "ownerUid": "lu5bZdy58Dg2WSbTXDIrSm2joX43"
+  }
+]

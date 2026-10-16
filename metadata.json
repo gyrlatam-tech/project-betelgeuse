@@ -1,0 +1,6 @@
+{
+  "name": "Skoolia Workspace",
+  "description": "Sistema de criação e administração de contas Google Workspace com a identidade visual da skoolia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

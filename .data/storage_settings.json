@@ -1,0 +1,12 @@
+{
+  "userLimits": {
+    "admin@alumnoweb.com": 1349,
+    "yodel@donquijotebrasil.com.br": 200
+  },
+  "orgUnitLimits": {
+    "/domquijotebrasil.com.br": 200,
+    "/alumnoweb.com": 1349,
+    "/": 15
+  },
+  "defaultLimitGb": 15
+}
